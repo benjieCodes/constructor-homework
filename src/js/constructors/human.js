@@ -2,7 +2,7 @@ let Human = function (options) {
 
   this.pet = function (pet) {
     pet.status = 'happy';
-  };
+  }
 
   this.feed = function (feed) {
     feed.hungry = false;
